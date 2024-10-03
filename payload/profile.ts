@@ -1,5 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+/* import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'; */
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -17,7 +18,7 @@ const profile: IProfile.Payload = {
   contact: [
     {
       title: 'chenwoo9730@gmail.com',
-      link: 'mailto:tux@linux.org',
+      link: 'chenwoo9730@gmail.com',
       icon: faEnvelope,
     },
     {
