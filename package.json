@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://resume.cwpack.site",
+  "homepage": "https://resume.cwdev.site",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chanW-pack/resume.git"
