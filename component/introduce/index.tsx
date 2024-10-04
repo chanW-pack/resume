@@ -29,24 +29,23 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
     <div className="mt-5">
       <Row>
-        <Col sm={12} md={3}>
+        <Col sm={12} md={9}>
           <h2 style={Style.blue}>안녕하세요. 박찬우입니다.</h2>
-          <Col sm={12} md={9}>
-            {payload.contents.map((content, index) => (
-              <p key={index.toString()}>{content}</p>
-            ))}
-            <p className="text-right">
-              <small>Latest Updated</small>{' '}
-              <Badge color="secondary">
-                {`${latestUpdated.toFormat(
-                  Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
-                )} (D+${latestUpdatedByNow})`}
-              </Badge>
-            </p>
-            <p className="text-right" style={Style.sign}>
-              {payload.sign}
-            </p>
-          </Col>
+
+          {payload.contents.map((content, index) => (
+            <p key={index.toString()}>{content}</p>
+          ))}
+          <p className="text-right">
+            <small>Latest Updated</small>{' '}
+            <Badge color="secondary">
+              {`${latestUpdated.toFormat(
+                Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
+              )} (D+${latestUpdatedByNow})`}
+            </Badge>
+          </p>
+          <p className="text-right" style={Style.sign}>
+            {payload.sign}
+          </p>
         </Col>
       </Row>
     </div>

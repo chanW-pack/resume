@@ -7,7 +7,7 @@ const experience: IExperience.Payload = {
     {
       title: '폴리인스퍼레이션 (PolyInspiration)',
       position: '운영PM',
-      startedAt: '2022-03',
+      startedAt: '2023-09',
       descriptions: [
         '하이브리드 클라우드 인프라 구축/운영',
         '통합 모니터링 및 장애대응',
@@ -57,7 +57,7 @@ const experience: IExperience.Payload = {
       title: '세라젬 (CERAGEM)',
       position: 'TA팀, 인프라 엔지니어',
       startedAt: '2022-06',
-      endedAt: '2023-10',
+      endedAt: '2022-10',
       descriptions: [
         'CRM 구축 프로젝트 참여, 서비스 오픈 진행',
         '계정, 디렉터리, 로그 등 권한 관리',
@@ -72,7 +72,7 @@ const experience: IExperience.Payload = {
       title: '애플 (Apple)',
       position: '상암 LG CDN, 삼성 SDS IDC 기술지원',
       startedAt: '2022-03',
-      endedAt: '2023-06',
+      endedAt: '2022-06',
       descriptions: [
         '서버 메인보드, COMS 배터리, SATA 케이블 교체 등 티켓 처리 작업',
         '부팅 장애 해결, 스위치 링크 트러블슈팅, 장비 정보 조사 작업',
