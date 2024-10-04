@@ -3,7 +3,9 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/_sample.jpg';
+// import image from '../asset/_sample.jpg';
+// 241004 이미지 수정
+import image from '../asset/gameson_2022.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
