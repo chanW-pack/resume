@@ -5,7 +5,7 @@ import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 // import image from '../asset/_sample.jpg';
 // 241004 이미지 수정
-import image from '../asset/gameson_2022.jpg';
+import image from '../asset/test.png';
 
 const profile: IProfile.Payload = {
   disable: false,
